@@ -1,0 +1,79 @@
+/* Header et body */
+
+body{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    border-bottom: 25px solid #36C4B3;
+    justify-content: space-between;
+    padding: 75px;
+}
+
+header a{
+    font-size: 150%;
+}
+
+nav{
+    display: flex;
+    width: 1250px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 30%;
+}
+
+/* Formulaire de réservation */
+#Réservation{
+    display: flex;
+    background-color: rgba(54, 196, 179, 25%);
+}
+
+#Voiture{
+    height: 100%;
+    width: 65%;
+}
+#Rechercher{
+    font-size: 150%;
+    background-color: white;
+    float: right;
+    width: 325px;
+    margin: 85px;
+    padding: 20px;
+    border-radius: 25px;
+    border: #e5e5e5 10px solid;
+}
+
+form img{
+    width: 15%;
+}
+
+.Centrer{
+    display: flex;
+    justify-content: center;
+}
+
+.Grey{
+    background-color: #d9d9d9;
+    width: 305px;
+    height: 30px;
+    border: #d9d9d9;
+}
+
+#Green{
+    background-color: #36C4B3;
+    border-radius: 12px;
+    color: white;
+    border: #36C4B3;
+    width: 50%;
+    height: 30px;
+}
+
+.Titre{
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Nos Offres du moment */

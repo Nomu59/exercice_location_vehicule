@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accueil</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="Images/VéhiLoc.svg" alt="VéhiLoc">
+        <nav>
+            <a href="Offres.html">Nos offres</a>
+            <a href="Véhicules.html">Nos Véhicules</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Connexion.html">Inscription / Connexion</a>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Formulaire de réservation -->
+        <section id="Réservation">
+            <img src="Images/poster-voiture.svg" alt="Voiture" id="Voiture">
+            <form action="Rechercher.html" id="Rechercher">
+                <H3 class="Centrer">Réservez votre véhicule</H3>
+                <label for="Ville">Choisir une ville <br>
+                    <input type="text" required class="Grey">
+                </label><br><br>
+                <label for="Départ">Départ <br>
+                    <input type="date" required class="Grey">
+                </label><br><br>
+                <label for="Arrivée">Arrivée <br>
+                    <input type="date" required class="Grey">
+                </label><br><br>
+                <label for="Véhicule1">Type de véhicule : <br>
+                    <input type="radio" name="Véhicule" required><img src="Images/Car.svg" alt="Car">
+                </label>
+                <label for="Véhicule2">
+                    <input type="radio" name="Véhicule" required><img src="Images/Truck.svg" alt="Truck">
+                </label>
+                <label for="Véhicule3">
+                    <input type="radio" name="Véhicule" required><img src="Images/Dirt Bike.svg" alt="Bike">
+                </label>
+                <label for="Véhicule4">
+                    <input type="radio" name="Véhicule" required><img src="Images/Bicycle.svg" alt="Bicycle">
+                </label><br><br>
+                <label for="Rechercher" class="Centrer">
+                    <input type="submit" value="Rechercher" id="Green">
+                </label>
+            </form>
+        </section>
+        
+        <!-- Nos Offres du moment -->
+        <section id="3images">
+            <H2 class="Titre">Nos Offres du moment</H2>
+            <div>
+                <img src="Images/photo-offre2.svg" alt="Offre2">
+                <H3>Louez dès 18 ans sans surcout</H3>
+            </div>
+            <div>
+                <img src="Images/photo-offre1.svg" alt="Offre1">
+                <H3>Location 24/7</H3>
+            </div>
+            <div>
+                <img src="Images/photo-offre3.svg" alt="Offre3">
+                <H3>Déménagez en toute sérénité</H3>
+            </div>
+        </section>
+        <section>
+            <H2>Nos gammes de véhicules</H2>
+            <div>
+                <img src="Images/Car.svg" alt="Car2">
+                <img src="Images/Truck.svg" alt="Truck2">
+                <img src="Images/Dirt Bike.svg" alt="Bike2">
+                <img src="Images/Bicycle.svg" alt="Bicycle2">
+            </div>
+        </section>
+        <section>
+            <div>
+                <img src="Images/renault-clio.png" alt="Clio">
+                <H3>Renault Clio</H3>
+                <H4>à partir de 30€</H4>
+            </div>
+            <div>
+                <img src="Images/renault-clio.png" alt="Clio">
+                <H3>Renault Clio</H3>
+                <H4>à partir de 30€</H4>
+            </div>
+            <div>
+                <img src="Images/renault-clio.png" alt="Clio">
+                <H3>Renault Clio</H3>
+                <H4>à partir de 30€</H4>
+            </div>
+            <div>
+                <img src="Images/renault-clio.png" alt="Clio">
+                <H3>Renault Clio</H3>
+                <H4>à partir de 30€</H4>
+            </div>
+        </section>
+        <form action="Contact.html">
+            <H2>Contact</H2>
+            <div>
+                <label for="nom">nom : <br>
+                    <input type="text" required>
+                </label><br><br>
+                <label for="prenom">prenom : <br>
+                    <input type="text" required>
+                </label><br><br>
+                <label for="email">email : <br>
+                    <input type="email" required>
+                </label>
+            </div>
+            <label for="message">votre message : <br>
+                <textarea name="message" cols="30" rows="10"></textarea>
+            </label>
+            <label for="Envoyer">
+                <input type="submit" value="Envoyer">
+            </label>
+        </form>
+    </main>
+    <footer>
+         <p>
+            <H3>Location de voiture</H3>
+            <a href="Lille.html">location sur Lille</a><br>
+            <a href="Paris.html">location sur Paris</a><br>
+            <a href="Lyon.html">location sur Lyon</a><br>
+            <a href="Marseille.html">location sur Marseille</a>
+        </p>
+        <p>
+            <H3>Location d'utilitaire</H3>
+            <a href="fourgonette.html">location de fourgonette</a><br>
+            <a href="fourgon.html">location de fourgon</a><br>
+            <a href="camionette.html">location de camionette</a><br>
+            <a href="hayon.html">location de camion hayon</a>
+        </p>
+        <p>
+            <H3>Location déménagement</H3>
+            <a href="déménagement.html">location camion déménagement</a><br>
+            <a href="garde">location garde meuble</a><br>
+            <a href="kits.html">Nos kits de démagements</a>
+        </p>
+        <p>
+            <H3>Qui sommes nous ?</H3>
+            <a href="franchiser.html">Devenir franchisé</a><br>
+            <a href="Contact.html">Nous contacter</a><br>
+            <a href="CG.html">Conditions générales</a><br>
+            <a href="CAC">Conditions assurance complémentaire</a>
+        </p>
+    </footer>
+</body>
+</html>
