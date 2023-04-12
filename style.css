@@ -77,3 +77,18 @@ form img{
 }
 
 /* Nos Offres du moment */
+
+#Offres{
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin-left: 300px;
+}
+
+.OffreVerte{
+    background-color: rgba(54, 196, 179, 25%);
+    height: 100px;
+    width: 360px;
+    font-size: 250%;
+}
+
